@@ -1,0 +1,63 @@
+/scratch/cnt0024/hmg2840/albert7a/anaconda2/envs/pangeo/lib/python3.6/site-packages/distributed/utils.py:134: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  % (host, default, e), RuntimeWarning)
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.13.6:34444'
+/scratch/cnt0024/hmg2840/albert7a/anaconda2/envs/pangeo/lib/python3.6/site-packages/distributed/utils.py:134: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  % (host, default, e), RuntimeWarning)
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.16.73:41645'
+/scratch/cnt0024/hmg2840/albert7a/anaconda2/envs/pangeo/lib/python3.6/site-packages/distributed/utils.py:134: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  % (host, default, e), RuntimeWarning)
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.30.16.28:41419'
+/scratch/cnt0024/hmg2840/albert7a/anaconda2/envs/pangeo/lib/python3.6/site-packages/distributed/utils.py:134: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  % (host, default, e), RuntimeWarning)
+distributed.worker - INFO -       Start worker at:   tcp://172.30.16.28:41032
+distributed.worker - INFO -          Listening to:   tcp://172.30.16.28:41032
+distributed.worker - INFO -              nanny at:         172.30.16.28:41419
+distributed.worker - INFO -              bokeh at:         172.30.16.28:33851
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:45374
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                         28
+distributed.worker - INFO -                Memory:                   20.00 GB
+distributed.worker - INFO -       Local Directory: /panfs/panasas/cnt0024/hmg2840/albert7a/git/pangeo-dask-jobqueue-occigen/worker-0nkmpw05
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:45374
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+/scratch/cnt0024/hmg2840/albert7a/anaconda2/envs/pangeo/lib/python3.6/site-packages/distributed/utils.py:134: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  % (host, default, e), RuntimeWarning)
+distributed.worker - INFO -       Start worker at:   tcp://172.30.16.73:35819
+distributed.worker - INFO -          Listening to:   tcp://172.30.16.73:35819
+distributed.worker - INFO -              nanny at:         172.30.16.73:41645
+distributed.worker - INFO -              bokeh at:         172.30.16.73:42680
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:45374
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                         28
+distributed.worker - INFO -                Memory:                   20.00 GB
+distributed.worker - INFO -       Local Directory: /panfs/panasas/cnt0024/hmg2840/albert7a/git/pangeo-dask-jobqueue-occigen/worker-eorpafh3
+distributed.worker - INFO - -------------------------------------------------
+/scratch/cnt0024/hmg2840/albert7a/anaconda2/envs/pangeo/lib/python3.6/site-packages/distributed/utils.py:134: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  % (host, default, e), RuntimeWarning)
+distributed.worker - INFO -       Start worker at:    tcp://172.30.13.6:39384
+distributed.worker - INFO -          Listening to:    tcp://172.30.13.6:39384
+distributed.worker - INFO -              nanny at:          172.30.13.6:34444
+distributed.worker - INFO -              bokeh at:          172.30.13.6:44816
+distributed.worker - INFO - Waiting to connect to:   tcp://172.30.100.3:45374
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                         28
+distributed.worker - INFO -                Memory:                   20.00 GB
+distributed.worker - INFO -       Local Directory: /panfs/panasas/cnt0024/hmg2distributed.core - INFO - Starting established connection
+62e
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://172.30.100.3:45374
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.utils_perf - INFO - full garbage collection released 10.31 MB from 51 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 11.02 MB from 760 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 11.35 MB from 896 reference cycles (threshold: 10.00 MB)
+distributed.core - INFO - Event loop was unresponsive in Nanny for 82.98s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 174.94s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 173.64s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 175.81s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 177.12s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+slurmstepd: *** JOB 6741188 ON n3123 CANCELLED AT 2019-05-24T11:33:30 DUE TO TIME LIMIT ***
+slurmstepd: *** JOB 6741209 ON n3898 CANCELLED AT 2019-05-24T11:34:33 DUE TO TIME LIMIT ***
+slurmstepd: *** JOB 6741208 ON n3853 CANCELLED AT 2019-05-24T11:34:33 DUE TO TIME LIMIT ***
